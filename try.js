@@ -12,7 +12,7 @@
 
 /// 
 
-// new aded with 
+// new aded with push method
 // let array=[{id:1,name:'ali',rollNo:12},{id:2,name:'ali',rollNo:13}]
 // const addStu=(std)=>{
 //     for (let index = 0; index < array.length; index++) {
@@ -29,7 +29,7 @@
 // console.log(array, 'student added successfully')
 
 
-// delete fn
+// delete fn with splice method
 
 let array=[{id:1,name:'ali',rollNo:12},{id:2,name:'ali',rollNo:13}, {id:3,name:'ali',rollNo:14},{id:4,name:'ali',rollNo:15}]
 let globalMsg
@@ -50,6 +50,7 @@ const deleteStu=(std)=>{
 }
 // console.log(array, 'befor delete')
 
+  
 deleteStu({id:3,name:'ali',rollNo:13})
 console.log(globalMsg)
 console.log(array, "after")
